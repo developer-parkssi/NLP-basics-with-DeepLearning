@@ -212,8 +212,8 @@ y 전체 데이터 :
 ```
 num_of_train = int(len(X) * 0.8) # 데이터의 전체 길이의 80%에 해당하는 길이값을 구한다.
 num_of_test = int(len(X) - num_of_train) # 전체 길이에서 80%에 해당하는 길이를 뺀다.
-print('훈련 데이터의 크기 :',num_of_train)
-print('테스트 데이터의 크기 :',num_of_test)
+print('훈련 데이터의 크기 :', num_of_train)
+print('테스트 데이터의 크기 :', num_of_test)
 
 [output]
 훈련 데이터의 크기 : 9
